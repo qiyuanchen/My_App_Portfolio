@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d9eee4"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="15"
+    tools:context="com.android.qiyuan.my_app_portfolio.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/nano_apps"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/spotify"
+        android:layout_width="230dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="2"
+        android:background="#a5c79c"
+        android:text="@string/spotify"
+        android:textColor="#fffdfd"
+        android:onClick="spotify"/>
+
+    <Button
+        android:id="@+id/score"
+        android:layout_width="230dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="2"
+        android:background="#a5c79c"
+        android:text="@string/score"
+        android:textColor="#fffdfd"
+        android:onClick="score"/>
+
+
+    <Button
+        android:id="@+id/lib"
+        android:layout_width="230dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="2"
+        android:background="#a5c79c"
+        android:text="@string/lib"
+        android:textColor="#fffdfd"
+        android:onClick="lib"/>
+
+
+    <Button
+        android:id="@+id/bigger"
+        android:layout_width="230dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="2"
+        android:background="#a5c79c"
+        android:text="@string/bigger"
+        android:textColor="#fffdfd"
+        android:onClick="bigger"/>
+
+    <Button
+        android:id="@+id/bacon"
+        android:layout_width="230dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="2"
+        android:background="#a5c79c"
+        android:text="@string/bacon"
+        android:textColor="#fffdfd"
+        android:onClick="bacon"/>
+
+    <Button
+        android:id="@+id/capstone"
+        android:layout_width="230dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="2"
+        android:background="#505050"
+        android:text="@string/capstone"
+        android:textColor="#fffdfd"
+        android:onClick="capstone"/>
+
+
+</LinearLayout>
